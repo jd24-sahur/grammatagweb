@@ -1,28 +1,24 @@
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Team from "./pages/Team";
+
 function App() {
   return (
-    <div style={{
-      height: "100vh",
-      backgroundColor: "#f5f5f5",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      flexDirection: "column",
-      fontFamily: "Arial"
-    }}>
-      
-      <h1 style={{
-        fontSize: "50px",
-        fontWeight: "bold",
-        background: "linear-gradient(to right, red, orange, yellow, green, blue, violet)",
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent"
-      }}>
-        Grammatag
-      </h1>
+    <>
+      <Navbar />
 
-      <p>Coming Soon...</p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
 
-    </div>
+      <Footer />
+    </>
   );
 }
 
