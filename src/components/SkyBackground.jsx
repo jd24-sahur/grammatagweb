@@ -2,7 +2,7 @@ import { StarIcon } from "@heroicons/react/24/solid";
 
 function SkyBackground({ children }) {
     return (
-        <div className="relative min-h-screen overflow-hidden transition-colors duration-700
+        <div className="relative min-h-screen overflow-hidden transition-colors duration-700 pt-20
       bg-gradient-to-b from-sky-200 via-blue-100 to-white
       dark:from-gray-900 dark:via-gray-800 dark:to-black">
 
