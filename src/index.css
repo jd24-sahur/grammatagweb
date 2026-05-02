@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+* {
+  @apply transition-colors duration-700;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
