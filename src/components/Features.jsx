@@ -52,10 +52,10 @@ function Features() {
       </div>
 
       {/* GRID */}
-      <div className="mt-16 grid gap-8 max-w-6xl mx-auto md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-16 grid auto-rows-fr gap-8 max-w-6xl mx-auto md:grid-cols-2 lg:grid-cols-3">
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-sky-200 dark:border-sky-500/30 bg-sky-50 dark:bg-sky-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-sky-200 dark:border-sky-500/30 bg-sky-50 dark:bg-sky-500/10">
             <div className="text-3xl mb-4">📴</div>
             <h3 className="text-xl font-bold text-sky-700 dark:text-sky-300">Offline Learning</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
@@ -65,7 +65,7 @@ function Features() {
         </TiltCard>
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-indigo-200 dark:border-indigo-500/30 bg-indigo-50 dark:bg-indigo-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-indigo-200 dark:border-indigo-500/30 bg-indigo-50 dark:bg-indigo-500/10">
             <div className="text-3xl mb-4">📝</div>
             <h3 className="text-xl font-bold text-indigo-700 dark:text-indigo-300">Grammar-Focused Lessons</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
@@ -75,7 +75,7 @@ function Features() {
         </TiltCard>
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-amber-200 dark:border-amber-500/30 bg-amber-50 dark:bg-amber-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-amber-200 dark:border-amber-500/30 bg-amber-50 dark:bg-amber-500/10">
             <div className="text-3xl mb-4">🧩</div>
             <h3 className="text-xl font-bold text-amber-700 dark:text-amber-300">Interactive Activities</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
@@ -85,7 +85,7 @@ function Features() {
         </TiltCard>
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-fuchsia-200 dark:border-fuchsia-500/30 bg-fuchsia-50 dark:bg-fuchsia-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-fuchsia-200 dark:border-fuchsia-500/30 bg-fuchsia-50 dark:bg-fuchsia-500/10">
             <div className="text-3xl mb-4">🏅</div>
             <h3 className="text-xl font-bold text-fuchsia-700 dark:text-fuchsia-300">Gamified Learning Experience</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
@@ -95,7 +95,7 @@ function Features() {
         </TiltCard>
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/10">
             <div className="text-3xl mb-4">📈</div>
             <h3 className="text-xl font-bold text-emerald-700 dark:text-emerald-300">Progress Tracking & Achievements</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
@@ -105,7 +105,7 @@ function Features() {
         </TiltCard>
 
         <TiltCard>
-          <div className="p-6 rounded-3xl border border-teal-200 dark:border-teal-500/30 bg-teal-50 dark:bg-teal-500/10">
+          <div className="h-full flex flex-col justify-between p-6 rounded-3xl border border-teal-200 dark:border-teal-500/30 bg-teal-50 dark:bg-teal-500/10">
             <div className="text-3xl mb-4">📘</div>
             <h3 className="text-xl font-bold text-teal-700 dark:text-teal-300">Curriculum-Aligned Content</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">

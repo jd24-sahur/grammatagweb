@@ -10,24 +10,22 @@ function SkyBackground({ children }) {
             <div className="pointer-events-none absolute inset-0 opacity-0 dark:opacity-100 transition duration-700">
 
                 {/* scattered stars */}
-                <StarIcon className="absolute top-[10%] left-[12%] w-3 text-white opacity-80 animate-twinkle" />
-
-                <StarIcon className="absolute top-[22%] left-[70%] w-4 text-white opacity-70 animate-twinkleSlow animate-[spin_12s_linear_infinite]" />
-
+                <StarIcon className="absolute top-[10%] left-[12%] w-3 text-white opacity-90 animate-twinkle" />
+                <StarIcon className="absolute top-[18%] left-[25%] w-2 text-white opacity-80 animate-twinkleSlow" />
+                <StarIcon className="absolute top-[22%] left-[70%] w-4 text-white opacity-85 animate-twinkleSlow animate-[spin_12s_linear_infinite]" />
+                <StarIcon className="absolute top-[30%] left-[45%] w-2.5 text-white opacity-75 animate-twinkle" />
                 <StarIcon className="absolute top-[35%] left-[40%] w-3 text-white opacity-90 animate-twinkle" />
-
-                <StarIcon className="absolute top-[50%] left-[85%] w-3 text-white opacity-60 animate-twinkleSlow" />
-
-                <StarIcon className="absolute top-[65%] left-[20%] w-4 text-white opacity-80 animate-twinkle animate-[spin_15s_linear_infinite]" />
-
-                <StarIcon className="absolute top-[75%] left-[60%] w-3 text-white opacity-70 animate-twinkleSlow" />
-
-                <StarIcon className="absolute top-[85%] left-[35%] w-3 text-white opacity-80 animate-twinkle" />
+                <StarIcon className="absolute top-[42%] left-[15%] w-3 text-white opacity-80 animate-twinkleSlow" />
+                <StarIcon className="absolute top-[50%] left-[85%] w-3 text-white opacity-80 animate-twinkleSlow" />
+                <StarIcon className="absolute top-[60%] left-[55%] w-2 text-white opacity-90 animate-twinkle" />
+                <StarIcon className="absolute top-[65%] left-[20%] w-4 text-white opacity-85 animate-twinkle animate-[spin_15s_linear_infinite]" />
+                <StarIcon className="absolute top-[75%] left-[60%] w-3 text-white opacity-80 animate-twinkleSlow" />
+                <StarIcon className="absolute top-[85%] left-[35%] w-3 text-white opacity-90 animate-twinkle" />
 
                 {/* glow stars */}
-                <StarIcon className="absolute top-[30%] left-[55%] w-5 text-white opacity-60 blur-[1px] animate-twinkleSlow" />
-
-                <StarIcon className="absolute top-[70%] left-[75%] w-5 text-white opacity-50 blur-[1px] animate-twinkle animate-[spin_20s_linear_infinite]" />
+                <StarIcon className="absolute top-[30%] left-[55%] w-5 text-white opacity-70 blur-[1px] animate-twinkleSlow" />
+                <StarIcon className="absolute top-[45%] left-[65%] w-4 text-white opacity-60 blur-[1px] animate-twinkle" />
+                <StarIcon className="absolute top-[70%] left-[75%] w-5 text-white opacity-55 blur-[1px] animate-twinkle animate-[spin_20s_linear_infinite]" />
 
             </div>
 
@@ -38,7 +36,7 @@ function SkyBackground({ children }) {
         bg-blue-200/10 dark:bg-gray-800/20 rounded-full blur-3xl" />
 
             {/* ☀️🌙 Sun → Moon */}
-            <div className="pointer-events-none absolute top-12 right-16">
+            <div className="pointer-events-none absolute top-24 right-16">
                 <div className="relative w-28 h-28">
 
                     {/* ☀️ Sun */}

@@ -37,7 +37,7 @@ function Footer() {
         {/* 👨‍🏫 Adviser */}
         <div>
           <h3 className="font-semibold mb-3">Project Adviser</h3>
-          <p className="font-medium">Mark Anthony Callilong</p>
+          <p className="font-medium">Mark Anthony Calilong</p>
           <p className="text-sm text-gray-600 mt-2">
             Guided and supported the development of this project.
           </p>
