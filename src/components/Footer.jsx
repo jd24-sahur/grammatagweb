@@ -51,7 +51,7 @@ function Footer() {
 
       {/* bottom */}
       <div className="text-center text-sm text-gray-600 mt-10">
-        © 2024 Grammatag. All rights reserved.
+        © 2025 Grammatag. All rights reserved.
       </div>
     </footer>
   );
