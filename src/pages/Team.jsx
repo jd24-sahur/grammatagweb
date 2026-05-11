@@ -47,7 +47,7 @@ function Team() {
         {members.map((member) => (
           <div
             key={member.name}
-            className="flex h-full flex-col items-center rounded-3xl bg-white/5 border border-white/10 p-8 text-center shadow-xl"
+            className="flex h-full flex-col items-center rounded-3xl bg-white/5 border border-white/10 p-8 text-center shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:border-pink-200 hover:bg-white/20 hover:shadow-2xl dark:hover:border-pink-400/40 dark:hover:bg-white/10"
           >
             <img
               src={member.image}

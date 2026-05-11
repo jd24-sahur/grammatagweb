@@ -42,7 +42,7 @@ function Footer() {
             Guided and supported the development of this project.
           </p>
 
-          <button className="mt-4 bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-500 transition">
+          <button className="mt-4 inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 px-5 py-2.5 font-semibold text-gray-900 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-pink-300 focus:ring-offset-2 focus:ring-offset-blue-100 dark:from-pink-400 dark:via-purple-400 dark:to-blue-400 dark:text-gray-950 dark:focus:ring-pink-400 dark:focus:ring-offset-gray-900">
             View Credits
           </button>
         </div>
