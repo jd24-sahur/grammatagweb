@@ -23,7 +23,7 @@ function Hero() {
                     {/* BUTTON */}
                     <div className="mt-6">
                         <a
-                            href="https://www.mediafire.com/file/0yzmmjrylh9oxug/GrammaTag.apk/file"
+                            href="https://www.mediafire.com/file/zdhzw3lk2056r9v/GrammaTag.apk/file"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-pink-300 text-black px-6 py-3 rounded-xl font-semibold transition-all duration-300
