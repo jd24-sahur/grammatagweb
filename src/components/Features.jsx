@@ -43,7 +43,7 @@ function Features() {
       {/* TITLE */}
       <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">
-          Why Choose <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">GrammaTag?</span>
+          Why Choose <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">Grammatag?</span>
         </h2>
 
         <p className="mt-6 text-gray-600 dark:text-gray-300 text-lg leading-8">

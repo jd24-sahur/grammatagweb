@@ -11,7 +11,7 @@ function Hero() {
                         Learn Grammar
                         <br />
                         <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">
-                            with GrammaTag!
+                            with Grammatag!
                         </span>
                     </h1>
 
@@ -23,7 +23,7 @@ function Hero() {
                     {/* BUTTON */}
                     <div className="mt-6">
                         <a
-                            href="https://www.mediafire.com/file/zdhzw3lk2056r9v/GrammaTag.apk/file"
+                            href="https://www.mediafire.com/file/spx2nmgqsq68e6q/GrammaTag_%25282%2529.apk/file"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-pink-300 text-black px-6 py-3 rounded-xl font-semibold transition-all duration-300
