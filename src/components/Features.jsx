@@ -59,7 +59,7 @@ function Features() {
             <div className="text-3xl mb-4">📴</div>
             <h3 className="text-xl font-bold text-sky-700 dark:text-sky-300">Offline Learning</h3>
             <p className="text-gray-600 dark:text-gray-300 mt-3">
-              Learn anytime, anywhere without internet access. GrammaTag ensures continuous learning through fully offline lessons and activities.
+              Learn anytime, anywhere without internet access. Grammatag ensures continuous learning through fully offline lessons and activities.
             </p>
           </div>
         </TiltCard>
