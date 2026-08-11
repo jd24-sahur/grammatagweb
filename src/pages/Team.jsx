@@ -15,20 +15,20 @@ const members = [
     role: "UI/UX Designer",
     image: luisaMarie,
     description: "Supports UI design and project documents.",
-  }, 
+  },
   {
     name: "Orias, Raegan John William T.",
-    role: "Lead Programmer",
+    role: "Data Analyst",
     image: raegan,
-    description: "Leads programming and core app features.",
+    description: "Leads and guides the team while analyzing data to drive project decisions.",
   },
   {
     name: "Papa, John Llienard C.",
-    role: "Data Analyst",
+    role: "Lead Programmer",
     image: johnLlienard,
-    description: "Analyzes data to improve learning progress.",
+    description: "Leads programming and core app features.", 
   },
- 
+
 ];
 
 function Team() {
