@@ -32,7 +32,7 @@ function Hero() {
                         </a>
 
                         <a
-                            href="https://drive.google.com/file/d/1hXpUjdTZ9dm9j2gzgZhTHhtJ3nMTO7mu/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1O1NXlGdOmmnzd91YMVzao7WrikfhoFk8/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-white/30 text-black px-6 py-3 rounded-xl font-semibold shadow-sm transition-all duration-300 hover:bg-white/40 hover:scale-105 hover:-translate-y-1 hover:shadow-md active:scale-95 dark:bg-white/5 dark:text-white dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-pink-300/30"
