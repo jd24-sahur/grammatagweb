@@ -18,15 +18,15 @@ const members = [
   },
   {
     name: "Orias, Raegan John William T.",
-    role: "Data Analyst",
+    role: "Programmer",
     image: raegan,
-    description: "Leads and guides the team while analyzing data to drive project decisions.",
+    description: "Contributes to coding and implementing application features to support system development.",
   },
   {
     name: "Papa, John Llienard C.",
-    role: "Lead Programmer",
+    role: "Lead Programmer &\nData Analyst",
     image: johnLlienard,
-    description: "Leads programming and core app features.", 
+    description: "Leads and guides the team, oversees programming and core app features, and analyzes data to drive project decisions.",
   },
 
 ];
@@ -57,7 +57,7 @@ function Team() {
             <h3 className="flex min-h-14 items-center justify-center text-xl font-semibold leading-snug text-slate-900 dark:text-white">
               {member.name}
             </h3>
-            <p className="mt-2 font-semibold text-pink-600 dark:text-pink-300">{member.role}</p>
+            <p className="mt-2 whitespace-pre-line font-semibold text-pink-600 dark:text-pink-300">{member.role}</p>
             <p className="mt-3 text-slate-700 dark:text-gray-300">{member.description}</p>
           </div>
         ))}
