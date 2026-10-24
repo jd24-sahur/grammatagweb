@@ -23,7 +23,7 @@ function Hero() {
                     {/* BUTTONS */}
                     <div className="mt-6 flex items-center gap-4">
                         <a
-                            href="https://www.mediafire.com/file/syvq1nge6l4svaf/GrammaTag.apk/file"
+                            href="https://www.mediafire.com/file/s8de1je4ux0v04l/Grammatag.apk/file"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-pink-300 text-black px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:bg-pink-400 hover:scale-105 hover:-translate-y-1 hover:shadow-lg active:scale-95 dark:bg-pink-400 dark:hover:bg-pink-500"
